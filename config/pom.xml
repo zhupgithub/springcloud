@@ -9,25 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>register</artifactId>
-    <description>注册中心</description>
+    <artifactId>config</artifactId>
+    <description>配置中心</description>
     <packaging>jar</packaging>
 
     <dependencies>
-        <!--服务中心-->
+        <!--配置中心-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-        <!--security-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-security</artifactId>
-        </dependency>
-        <!--配置中心客户端-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <!--web 模块-->
         <dependency>
@@ -48,6 +38,7 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
             <plugin>
@@ -60,6 +51,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
