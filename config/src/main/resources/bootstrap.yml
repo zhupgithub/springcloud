@@ -10,11 +10,17 @@ spring:
       server:
         git:
           uri: https://github.com/zhupgithub/config.git
-#          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
+          #          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
           username: zhupgithub
           password: Zhupeng931222
           force-pull: true
           basedir: ./temp
+        #          search-paths: /main #对应repository的配置文件目录
+
+        #当配置文件全部写在本地时，可以这样进行获取
+#        native:
+#          search-locations: classpath:/config/
+
 
 # 注册中心配置
 eureka:

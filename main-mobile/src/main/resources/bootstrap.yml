@@ -9,6 +9,7 @@ spring:
         enabled: true
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境
+      label: master
 
 
 #roses:
