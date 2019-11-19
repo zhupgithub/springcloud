@@ -2,14 +2,15 @@ server:
   port: 9763
 spring:
   application:
-    name: mainMobile
+    name: main-mobile
   cloud:
     config:
+      name: main-mobile   #文件前缀名称
       discovery:
         enabled: true
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境
-      label: master
+
   rabbitmq:
     host: localhost
     port: 5672
@@ -42,8 +43,6 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-  security:
-    enabled: false
 
 #ribbon:
 #  connect-imeout: 300     #创建连接的超时时间 单位：毫秒

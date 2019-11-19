@@ -111,6 +111,10 @@
         <module>register</module>
         <module>config</module>
         <module>main-mobile</module>
+        <module>notice</module>
+        <module>monitor</module>
+        <module>main-pc</module>
+        <module>common</module>
     </modules>
 
     <dependencyManagement>

@@ -15,4 +15,3 @@ spring:
       max-idle: 5
       # 连接池中的最小空闲连接
       min-idle: 0
-username: zhupeng2

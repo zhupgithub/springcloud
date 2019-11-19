@@ -1,0 +1,349 @@
+2019-11-19 20:18:13,538 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-11-19 20:18:13,673 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-19 20:18:13,675 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,675 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,675 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,676 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:18:13,676 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,676 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,676 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:13,717 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b57d0bcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:13,767 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-11-19 20:18:13,779 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-19 20:18:13,782 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-19 20:18:14,249 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-11-19 20:18:14,637 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-11-19 20:18:15,277 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-19 20:18:15,278 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-19 20:18:15,698 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-11-19 20:18:15,699 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-11-19 20:18:16,089 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-19 20:18:16,632 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-19 20:18:16,634 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-19 20:18:16,635 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-19 20:18:16,636 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-19 20:18:16,641 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-19 20:18:16,642 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-11-19 20:18:16,643 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-19 20:18:17,275 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-19 20:18:17,280 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1335 - Not registering with Eureka server per configuration
+2019-11-19 20:18:17,289 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1574165897286 with initial instances count: 3
+2019-11-19 20:18:17,372 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application MAIN-MOBILE with eureka with status UP
+2019-11-19 20:18:18,177 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: main-mobile-1
+2019-11-19 20:18:18,178 [main] INFO  [com.zhupeng.MainMobileApplication] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-11-19 20:18:19,395 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:18:19,855 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-19 20:18:19,860 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:18:19,892 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-11-19 20:18:19,956 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:18:20,037 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:18:20,843 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=569af696-d71a-3dfb-9ec9-f26b9e9d70e7
+2019-11-19 20:18:20,867 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-11-19 20:18:20,894 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-19 20:18:20,894 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-19 20:18:20,894 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:18:20,895 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:18:20,895 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:20,895 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:20,896 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:18:20,897 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:20,897 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:18:20,908 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:193 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-19 20:18:20,916 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:280 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-19 20:18:20,926 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:431 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-19 20:18:20,953 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-11-19 20:18:21,429 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:21,579 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$454c3fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:21,627 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$dfe6cf1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:21,657 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$18ce77ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:21,674 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:21,760 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b57d0bcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:18:22,781 [main] WARN  [io.undertow.websockets.jsr] Bootstrap.java:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-11-19 20:18:22,976 [main] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:18:22,977 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 4785 ms
+2019-11-19 20:18:23,335 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-11-19 20:18:23,336 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-19 20:18:23,363 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6442cf3e
+2019-11-19 20:18:23,753 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-19 20:18:23,754 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-19 20:18:26,399 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'taskScheduler'
+2019-11-19 20:18:27,175 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-11-19 20:18:27,483 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-11-19 20:18:27,483 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-19 20:18:28,014 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:18:30,915 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-11-19 20:18:30,935 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-11-19 20:18:31,066 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 25 endpoint(s) beneath base path '/actuator'
+2019-11-19 20:18:31,272 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBusInput' has 1 subscriber(s).
+2019-11-19 20:18:31,514 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBusInput
+2019-11-19 20:18:31,622 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel nullChannel
+2019-11-19 20:18:31,647 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel errorChannel
+2019-11-19 20:18:31,698 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBusOutput
+2019-11-19 20:18:31,725 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:785 - Registering MessageHandler errorLogger
+2019-11-19 20:18:31,758 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:785 - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@205c5cd0
+2019-11-19 20:18:31,884 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-19 20:18:31,884 [main] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.errorChannel' has 1 subscriber(s).
+2019-11-19 20:18:31,885 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:159 - started _org.springframework.integration.errorLogger
+2019-11-19 20:18:32,299 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://10.12.14.163:9762/
+2019-11-19 20:18:32,607 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=main-mobile, profiles=[dev], label=null, version=null, state=null
+2019-11-19 20:18:32,608 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:101 - Located property source: CompositePropertySource {name='configService', propertySources=[]}
+2019-11-19 20:18:32,628 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: main-mobile-1-1
+2019-11-19 20:18:32,917 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:482 - Attempting to connect to: [localhost:5672]
+2019-11-19 20:18:33,206 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:517 - Created new connection: rabbitConnectionFactory#6905d030:0/SimpleConnection@47e6004c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62499]
+2019-11-19 20:18:33,270 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBusOutput' has 1 subscriber(s).
+2019-11-19 20:18:33,295 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-11-19 20:18:33,310 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-11-19 20:18:33,323 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-19 20:18:33,324 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-19 20:18:33,325 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-11-19 20:18:33,326 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-11-19 20:18:33,459 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-19 20:18:33,460 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-19 20:18:33,461 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-19 20:18:33,461 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-19 20:18:33,461 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-19 20:18:33,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-19 20:18:33,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-11-19 20:18:33,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-19 20:18:33,591 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-19 20:18:33,595 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 5
+2019-11-19 20:18:33,599 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-19 20:18:33,602 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1574165913602 with initial instances count: 3
+2019-11-19 20:18:33,612 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application MAIN-MOBILE with eureka with status UP
+2019-11-19 20:18:33,613 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1574165913613, current=UP, previous=STARTING]
+2019-11-19 20:18:33,665 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:168 - declaring queue for inbound: springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ, bound to: springCloudBus
+2019-11-19 20:18:33,809 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors
+2019-11-19 20:18:33,869 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763: registering service...
+2019-11-19 20:18:34,055 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors' has 1 subscriber(s).
+2019-11-19 20:18:34,056 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors' has 2 subscriber(s).
+2019-11-19 20:18:34,090 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - registration status: 204
+2019-11-19 20:18:34,119 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ
+2019-11-19 20:18:34,298 [main] INFO  [org.xnio] Xnio.java:104 - XNIO version 3.3.8.Final
+2019-11-19 20:18:34,313 [main] INFO  [org.xnio.nio] NioXnio.java:55 - XNIO NIO Implementation Version 3.3.8.Final
+2019-11-19 20:18:34,513 [main] INFO  [o.s.b.w.embedded.undertow.UndertowServletWebServer] UndertowServletWebServer.java:144 - Undertow started on port(s) 9763 (http) with context path ''
+2019-11-19 20:18:34,514 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9763
+2019-11-19 20:18:34,746 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9763
+2019-11-19 20:18:34,752 [main] INFO  [com.zhupeng.MainMobileApplication] StartupInfoLogger.java:59 - Started MainMobileApplication in 24.757 seconds (JVM running for 27.634)
+2019-11-19 20:18:34,756 [main] INFO  [com.zhupeng.MainMobileApplication] MainMobileApplication.java:16 - 手机端主流业务启动完成！
+2019-11-19 20:18:41,391 [XNIO-1 task-1] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 20:18:41,392 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 20:18:41,416 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 24 ms
+2019-11-19 20:18:41,507 [XNIO-1 task-1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://10.12.14.163:9762/
+2019-11-19 20:18:41,619 [XNIO-1 task-2] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://10.12.14.163:9762/
+2019-11-19 20:18:42,256 [XNIO-1 task-1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=main-mobile, profiles=[dev], label=null, version=null, state=null
+2019-11-19 20:18:42,334 [XNIO-1 task-2] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=main-mobile, profiles=[dev], label=null, version=null, state=null
+2019-11-19 20:18:42,491 [parallel-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2019-11-19 20:18:42,493 [parallel-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2019-11-19 20:22:43,821 [Thread-6] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application MAIN-MOBILE with eureka with status DOWN
+2019-11-19 20:22:43,822 [Thread-6] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1321 - Saw local status change event StatusChangeEvent [timestamp=1574166163822, current=DOWN, previous=UP]
+2019-11-19 20:22:43,823 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763: registering service...
+2019-11-19 20:22:43,859 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - registration status: 204
+2019-11-19 20:22:43,864 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:591 - Waiting for workers to finish.
+2019-11-19 20:22:44,281 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:594 - Successfully waited for workers to finish.
+2019-11-19 20:22:44,282 [Thread-6] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ
+2019-11-19 20:22:44,287 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors' has 1 subscriber(s).
+2019-11-19 20:22:44,287 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors' has 0 subscriber(s).
+2019-11-19 20:22:44,293 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-19 20:22:44,293 [Thread-6] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.errorChannel' has 0 subscriber(s).
+2019-11-19 20:22:44,294 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-11-19 20:22:44,305 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:22:44,308 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-19 20:22:45,724 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBus.anonymous.PF-AkI6cRTa7v5tHmX_ktQ.errors
+2019-11-19 20:22:45,724 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusInput
+2019-11-19 20:22:45,724 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: nullChannel
+2019-11-19 20:22:45,725 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: errorChannel
+2019-11-19 20:22:45,725 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusOutput
+2019-11-19 20:22:45,725 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2019-11-19 20:22:45,725 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@205c5cd0
+2019-11-19 20:22:45,727 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-11-19 20:22:48,730 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Unregistering ...
+2019-11-19 20:22:48,732 [DiscoveryClient-1] WARN  [com.netflix.discovery.TimedSupervisorTask] TimedSupervisorTask.java:88 - task supervisor shutting down, can't accept the task
+2019-11-19 20:22:48,897 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:942 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - deregister  status: 200
+2019-11-19 20:22:48,910 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-11-19 20:22:48,914 [Thread-6] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-11-19 20:29:02,639 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-11-19 20:29:02,807 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-19 20:29:02,809 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,810 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,810 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,811 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:29:02,811 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,811 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,812 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:02,859 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56e87dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:02,913 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-11-19 20:29:02,925 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-19 20:29:02,929 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-19 20:29:03,395 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-11-19 20:29:03,598 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-11-19 20:29:04,146 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-19 20:29:04,147 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-19 20:29:04,369 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-11-19 20:29:04,370 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-11-19 20:29:04,706 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-19 20:29:04,886 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-19 20:29:04,887 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-19 20:29:04,887 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-19 20:29:04,888 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-19 20:29:04,888 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-19 20:29:04,888 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-11-19 20:29:04,889 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-19 20:29:05,491 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-19 20:29:05,496 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1335 - Not registering with Eureka server per configuration
+2019-11-19 20:29:05,503 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1574166545502 with initial instances count: 2
+2019-11-19 20:29:05,588 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application MAIN-MOBILE with eureka with status UP
+2019-11-19 20:29:06,468 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: main-mobile-1
+2019-11-19 20:29:06,469 [main] INFO  [com.zhupeng.MainMobileApplication] SpringApplication.java:648 - No active profile set, falling back to default profiles: default
+2019-11-19 20:29:07,592 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:29:08,068 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-19 20:29:08,072 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:29:08,103 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-11-19 20:29:08,152 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:29:08,227 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-19 20:29:08,907 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=569af696-d71a-3dfb-9ec9-f26b9e9d70e7
+2019-11-19 20:29:08,961 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-11-19 20:29:08,991 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-19 20:29:08,991 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-19 20:29:08,992 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:29:08,992 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:29:08,992 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:08,993 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:08,993 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-19 20:29:08,994 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:08,994 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-19 20:29:09,005 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:193 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-19 20:29:09,013 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:280 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-19 20:29:09,025 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:431 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-19 20:29:09,057 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-11-19 20:29:09,520 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:09,611 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$a5c035f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:09,655 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$81524115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:09,680 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$ba39e9e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:09,694 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:09,786 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$56e87dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:29:10,701 [main] WARN  [io.undertow.websockets.jsr] Bootstrap.java:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-11-19 20:29:10,735 [main] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:29:10,736 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 4252 ms
+2019-11-19 20:29:11,079 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-11-19 20:29:11,079 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-19 20:29:11,101 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@49f9758
+2019-11-19 20:29:11,340 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-19 20:29:11,340 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-19 20:29:14,279 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'taskScheduler'
+2019-11-19 20:29:14,996 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-11-19 20:29:15,211 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-11-19 20:29:15,212 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-19 20:29:15,845 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:29:18,923 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-11-19 20:29:18,947 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-11-19 20:29:19,094 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 25 endpoint(s) beneath base path '/actuator'
+2019-11-19 20:29:19,297 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBusInput' has 1 subscriber(s).
+2019-11-19 20:29:19,554 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel errorChannel
+2019-11-19 20:29:19,665 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel nullChannel
+2019-11-19 20:29:19,689 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBusOutput
+2019-11-19 20:29:19,735 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBusInput
+2019-11-19 20:29:19,762 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:785 - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@2c70da80
+2019-11-19 20:29:19,860 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:785 - Registering MessageHandler errorLogger
+2019-11-19 20:29:19,939 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-19 20:29:19,940 [main] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.errorChannel' has 1 subscriber(s).
+2019-11-19 20:29:19,940 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:159 - started _org.springframework.integration.errorLogger
+2019-11-19 20:29:20,388 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://10.12.14.163:9762/
+2019-11-19 20:29:20,723 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=main-mobile, profiles=[dev], label=null, version=null, state=null
+2019-11-19 20:29:20,724 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:101 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='classpath:/config/main-mobile-dev.yml'}]}
+2019-11-19 20:29:20,758 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: main-mobile-1-1
+2019-11-19 20:29:21,112 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:482 - Attempting to connect to: [localhost:5672]
+2019-11-19 20:29:21,279 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:517 - Created new connection: rabbitConnectionFactory#6277a496:0/SimpleConnection@3514ea20 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64534]
+2019-11-19 20:29:21,339 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBusOutput' has 1 subscriber(s).
+2019-11-19 20:29:21,360 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-11-19 20:29:21,371 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-11-19 20:29:21,383 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-19 20:29:21,384 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-19 20:29:21,385 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-11-19 20:29:21,386 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-11-19 20:29:21,562 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-19 20:29:21,563 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-19 20:29:21,563 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-19 20:29:21,564 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-19 20:29:21,564 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-19 20:29:21,564 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-19 20:29:21,565 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-11-19 20:29:21,565 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-19 20:29:21,723 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-19 20:29:21,724 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 5
+2019-11-19 20:29:21,727 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-19 20:29:21,730 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1574166561730 with initial instances count: 2
+2019-11-19 20:29:21,739 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application MAIN-MOBILE with eureka with status UP
+2019-11-19 20:29:21,740 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1574166561740, current=UP, previous=STARTING]
+2019-11-19 20:29:21,792 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:168 - declaring queue for inbound: springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A, bound to: springCloudBus
+2019-11-19 20:29:21,822 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763: registering service...
+2019-11-19 20:29:21,900 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors
+2019-11-19 20:29:22,054 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors' has 1 subscriber(s).
+2019-11-19 20:29:22,056 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors' has 2 subscriber(s).
+2019-11-19 20:29:22,182 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - registration status: 204
+2019-11-19 20:29:22,202 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A
+2019-11-19 20:29:22,291 [main] INFO  [org.xnio] Xnio.java:104 - XNIO version 3.3.8.Final
+2019-11-19 20:29:22,304 [main] INFO  [org.xnio.nio] NioXnio.java:55 - XNIO NIO Implementation Version 3.3.8.Final
+2019-11-19 20:29:22,382 [main] INFO  [o.s.b.w.embedded.undertow.UndertowServletWebServer] UndertowServletWebServer.java:144 - Undertow started on port(s) 9763 (http) with context path ''
+2019-11-19 20:29:22,383 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9763
+2019-11-19 20:29:22,674 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9763
+2019-11-19 20:29:22,679 [main] INFO  [com.zhupeng.MainMobileApplication] StartupInfoLogger.java:59 - Started MainMobileApplication in 23.396 seconds (JVM running for 25.196)
+2019-11-19 20:29:22,683 [main] INFO  [com.zhupeng.MainMobileApplication] MainMobileApplication.java:16 - 手机端主流业务启动完成！
+2019-11-19 20:29:40,248 [XNIO-1 task-1] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 20:29:40,249 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 20:29:40,282 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 33 ms
+2019-11-19 20:29:40,397 [XNIO-1 task-1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://10.12.14.163:9762/
+2019-11-19 20:29:41,142 [XNIO-1 task-1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=main-mobile, profiles=[dev], label=null, version=null, state=null
+2019-11-19 20:29:41,356 [parallel-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2019-11-19 20:29:41,359 [parallel-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2019-11-19 20:32:12,419 [Thread-6] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application MAIN-MOBILE with eureka with status DOWN
+2019-11-19 20:32:12,421 [Thread-6] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1321 - Saw local status change event StatusChangeEvent [timestamp=1574166732421, current=DOWN, previous=UP]
+2019-11-19 20:32:12,423 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763: registering service...
+2019-11-19 20:32:12,431 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - registration status: 204
+2019-11-19 20:32:12,468 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:591 - Waiting for workers to finish.
+2019-11-19 20:32:12,710 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:594 - Successfully waited for workers to finish.
+2019-11-19 20:32:12,710 [Thread-6] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A
+2019-11-19 20:32:12,715 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors' has 1 subscriber(s).
+2019-11-19 20:32:12,716 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors' has 0 subscriber(s).
+2019-11-19 20:32:12,724 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-19 20:32:12,725 [Thread-6] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'main-mobile-1.errorChannel' has 0 subscriber(s).
+2019-11-19 20:32:12,725 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-11-19 20:32:12,738 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:32:12,751 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-19 20:32:14,250 [parallel-1] WARN  [o.s.b.actuate.redis.RedisReactiveHealthIndicator] AbstractReactiveHealthIndicator.java:89 - Redis health check failed
+java.lang.IllegalStateException: Cannot connect, Event executor group is terminated.
+	at io.lettuce.core.AbstractRedisClient.initializeChannelAsync(AbstractRedisClient.java:283)
+	at io.lettuce.core.RedisClient.connectStatefulAsync(RedisClient.java:314)
+	at io.lettuce.core.RedisClient.connectStandaloneAsync(RedisClient.java:271)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1110)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1091)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:882)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:383)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at org.springframework.cloud.sleuth.instrument.async.TraceCallable.call(TraceCallable.java:70)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-19 20:32:14,654 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: errorChannel
+2019-11-19 20:32:14,654 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: nullChannel
+2019-11-19 20:32:14,655 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBus.anonymous.6PvuUvQiR4C1ch1diUfY8A.errors
+2019-11-19 20:32:14,655 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusOutput
+2019-11-19 20:32:14,655 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusInput
+2019-11-19 20:32:14,655 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@2c70da80
+2019-11-19 20:32:14,656 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2019-11-19 20:32:14,657 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-11-19 20:32:17,658 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Unregistering ...
+2019-11-19 20:32:17,672 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:942 - DiscoveryClient_MAIN-MOBILE/AUTOBVT-SMVSLG2:main-mobile:9763 - deregister  status: 200
+2019-11-19 20:32:17,676 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-11-19 20:32:17,702 [Thread-6] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Destroying Spring FrameworkServlet 'dispatcherServlet'
