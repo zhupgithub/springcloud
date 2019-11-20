@@ -1,15 +1,16 @@
 package com.zhupeng.mobile.user.service;
 
-import com.zhupeng.constant.ServiceConstant;
 import com.zhupeng.entity.ResponseResult;
 import com.zhupeng.entity.vo.UserVo;
-import com.zhupeng.mobile.user.service.fallback.UserServiceFallBack;
-import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(value = ServiceConstant.PC_SERVICE , fallback = UserServiceFallBack.class)
 public interface UserService {
 
     @PostMapping("/addUser")
-    ResponseResult addUser(UserVo userVo);
+    ResponseResult addUser(@RequestBody UserVo userVo);
+
+    @GetMapping("test")
+    ResponseResult test();
 }
