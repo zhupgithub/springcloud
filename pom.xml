@@ -115,6 +115,8 @@
         <module>monitor</module>
         <module>main-pc</module>
         <module>common</module>
+        <module>gateway</module>
+        <module>code-generate</module>
     </modules>
 
     <dependencyManagement>

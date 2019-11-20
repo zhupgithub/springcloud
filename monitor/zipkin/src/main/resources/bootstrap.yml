@@ -1,17 +1,17 @@
 server:
-  port: 9765
+    port: 9766
 spring:
   application:
     name: zipkin
   cloud:
     config:
+      name: zipkin
       discovery:
         enabled: true
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境
-      label: master
-
-
+  main:
+    allow-bean-definition-overriding: true
 
 #roses:
 #  message:
@@ -29,16 +29,6 @@ eureka:
       defaultZone: http://admin:zhupeng@localhost:9761/eureka/
     registry-fetch-interval-seconds: 10  #重新刷新服务地址的时间
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  endpoint:
-    health:
-      show-details: ALWAYS
-  security:
-    enabled: false
 #ribbon:
 #  connect-imeout: 300     #创建连接的超时时间 单位：毫秒
 #  read-timeout: 2000      #处理请求的超时时间 单位：毫秒

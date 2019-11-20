@@ -62,5 +62,4 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-  security:
-    enabled: false
+

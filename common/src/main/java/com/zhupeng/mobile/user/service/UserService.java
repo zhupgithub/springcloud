@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.PostMapping;
 public interface UserService {
 
     @PostMapping("/addUser")
-    public ResponseResult addUser(UserVo userVo);
+    ResponseResult addUser(UserVo userVo);
 }

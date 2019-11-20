@@ -63,7 +63,7 @@ eureka:
   server:
     eviction-interval-timer-in-ms: 4000  #3秒钟自动剔除失效的节点
     enable-self-preservation: false #开发阶段关闭Springcloud的保护模式
-    renewal-percent-threshold: 0.
+    renewal-percent-threshold: 0.9
     peer-node-read-timeout-ms: 10000
 
 management:
