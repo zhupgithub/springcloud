@@ -35,9 +35,9 @@ eureka:
     registry-fetch-interval-seconds: 10  #重新刷新服务地址的时间
 
 
-#feign:
-#  hystrix:
-#    enabled: true
+feign:
+  hystrix:
+    enabled: true
 
 
 #ribbon:

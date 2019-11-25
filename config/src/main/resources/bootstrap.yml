@@ -22,7 +22,7 @@ spring:
 #          uri: https://github.com/zhupgithub/config.git
 #          #          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
 #          username: zhupgithub
-#          password: Zhupeng931222
+#          password: 
 #          force-pull: true
 #          basedir: ./temp
 #        #          search-paths: /main #对应repository的配置文件目录
