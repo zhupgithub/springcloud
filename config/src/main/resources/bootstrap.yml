@@ -19,16 +19,18 @@ spring:
 
         #从git获取数据
         git:
-          uri: https://github.com/zhupgithub/config.git
-          #          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
-          username: zhupgithub
-          password: Zhupeng931222
+          uri: https://github.com/zhupgithub/springcloud
+          search-paths: git-config        # git 仓库地址下的相对地址，可以配置多个，用“,”分割
+          username:                #  git仓库的账号（私有库必填）
+          password:                  # git仓库的密码（私有库必填）
           force-pull: true
-      label: master
-#          basedir: ./temp
-#        #          search-paths: /main #对应repository的配置文件目录
+          basedir: ./temp       # 缓存到本地的地址
+      label: master     #配置仓库的分支
+    bus:
+      refresh:
+        enabled: true
 
-
+  #spring.cloud.config.server.git.basedir
 
 
 

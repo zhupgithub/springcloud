@@ -41,6 +41,6 @@ public class UserController {
 
         redisUtil.hset("zhupeng" , "test" , "zhp");
 
-        return "success" + userVo;
+        return "success" + username;
     }
 }

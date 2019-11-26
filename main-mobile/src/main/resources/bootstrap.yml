@@ -7,14 +7,18 @@ spring:
     config:
       name: main-mobile   #文件前缀名称
       discovery:
-        enabled: true
+        enabled: true  #支持注册中心访问Config服务端
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境
       label: master
       enabled: true  #开启Config服务发现支持
+      fail-fast: true  # 当config-server服务器宕机后，config-client将快速响应失败
     bus:
         refresh:
           enabled: true  #动态刷新配置
+        #跟踪总线事件
+        trace:
+          enabled: true
 
   rabbitmq:
     host: localhost

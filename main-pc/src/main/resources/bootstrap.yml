@@ -10,6 +10,14 @@ spring:
         enabled: true
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境   例如 {name}-{profile} = service-gateway-dev.yml
+      label: master
+      enabled: true  #开启Config服务发现支持
+      fail-fast: true  # 当config-server服务器宕机后，config-client将快速响应失败
+    bus:
+        refresh:
+          enabled: true   #动态刷新配置
+        trace:
+          enabled: true
 
   rabbitmq:
     host: localhost
