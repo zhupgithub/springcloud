@@ -16,6 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("user")
 public class UserController {
 
+    /**
+     * feign 使用：
+     * 1、请求路径：在类上也有路径
+     * 2、fallbackFactory也需要加入到spring管理
+     * 3、在配置文件中开启hystrix
+     */
     @Autowired
     UserService userService;
 

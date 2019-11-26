@@ -5,8 +5,8 @@ spring:
     name: config
 
 #当配置文件全部写在本地时，可以这样进行获取
-  profiles:
-    active: native
+#  profiles:
+#    active: native
 
    #config信息配置
   cloud:
@@ -14,16 +14,17 @@ spring:
       server:
 
       #当配置文件全部写在本地时，可以这样进行获取
-        native:
-          search-locations: classpath:/config/
+#        native:
+#          search-locations: classpath:/config/
 
         #从git获取数据
-#        git:
-#          uri: https://github.com/zhupgithub/config.git
-#          #          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
-#          username: zhupgithub
-#          password: 
-#          force-pull: true
+        git:
+          uri: https://github.com/zhupgithub/config.git
+          #          search-paths: *  # git 仓库地址下的相对地址，可以配置多个，用“,”分割
+          username: zhupgithub
+          password: Zhupeng931222
+          force-pull: true
+      label: master
 #          basedir: ./temp
 #        #          search-paths: /main #对应repository的配置文件目录
 
