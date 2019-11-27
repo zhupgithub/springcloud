@@ -22,4 +22,4 @@ spring:
       # 更改采样比率为1，就能看到所有的请求数据了，但是这样会增加接口调用延迟
       probability: 1.0
  
-username: zhupeng2
+username: zhupeng1
