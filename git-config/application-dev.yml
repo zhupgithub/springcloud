@@ -7,6 +7,10 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
 
 spring:
   # zipkin
