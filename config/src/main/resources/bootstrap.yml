@@ -26,16 +26,6 @@ spring:
           force-pull: true
           basedir: ./temp       # 缓存到本地的地址
       label: master     #配置仓库的分支
-    bus:
-      refresh:
-        enabled: true
-
-  #spring.cloud.config.server.git.basedir
-
-
-
-
-
 #rabbitmq相关配置
   rabbitmq:
     host: localhost
@@ -61,8 +51,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: refresh,health,info,bus-refresh
   endpoint:
     health:
       show-details: ALWAYS
 
+# http://localhost:9762/actuator/bus-refresh  bus的动态刷新接口，调用该接口后，关联的所有配置中心的客户端都将刷新配置

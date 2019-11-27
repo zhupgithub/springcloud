@@ -10637,3 +10637,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-11-27 17:13:08,178 [hystrix-main-pc-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: main-pc
+2019-11-27 17:14:14,201 [hystrix-main-pc-2] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: main-pc
+2019-11-27 17:14:27,174 [hystrix-main-pc-3] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: main-pc
+2019-11-27 17:14:28,531 [hystrix-main-pc-4] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: main-pc
+2019-11-27 18:56:40,314 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
+2019-11-27 18:59:45,253 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
