@@ -10,8 +10,22 @@ spring:
         enabled: true
         service-id: config  # 配置中心服务的名称
       profile: dev  #git 文件的环境
+      label: master
+      enabled: true
+      fail-fast: true
+    bus:
+      refresh:
+        enabled: true
+      trace:
+        enabled: true
   main:
     allow-bean-definition-overriding: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 #roses:
 #  message:
@@ -28,6 +42,12 @@ eureka:
     service-url:
       defaultZone: http://admin:zhupeng@localhost:9761/eureka/
     registry-fetch-interval-seconds: 10  #重新刷新服务地址的时间
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
 
 #ribbon:
 #  connect-imeout: 300     #创建连接的超时时间 单位：毫秒

@@ -496,3 +496,277 @@ java.util.concurrent.TimeoutException: null
 2019-11-27 19:05:38,243 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: _org.springframework.integration.errorLogger.handler
 2019-11-27 19:05:38,244 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
 2019-11-27 19:05:41,248 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Unregistering ...
+2019-11-27 21:04:52,733 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-11-27 21:04:52,844 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-27 21:04:52,846 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,846 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,846 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,847 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-27 21:04:52,847 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configServerClient [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,848 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,848 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,849 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-27 21:04:52,879 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$55f88512] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-27 21:04:52,920 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-11-27 21:04:52,983 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-27 21:04:52,986 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-27 21:05:07,085 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: config-1-1
+2019-11-27 21:05:07,274 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:482 - Attempting to connect to: [localhost:5672]
+2019-11-27 21:05:07,384 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:517 - Created new connection: rabbitConnectionFactory#5ec6a1b6:0/SimpleConnection@2b27d5d3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61841]
+2019-11-27 21:05:07,471 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.springCloudBusOutput' has 1 subscriber(s).
+2019-11-27 21:05:07,497 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-11-27 21:05:07,559 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-11-27 21:05:07,684 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-11-27 21:05:07,684 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-11-27 21:05:07,917 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-11-27 21:05:07,918 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-11-27 21:05:08,228 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:05:08,398 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-27 21:05:08,399 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-27 21:05:08,400 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-27 21:05:08,400 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-27 21:05:08,401 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-27 21:05:08,401 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-11-27 21:05:08,402 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-27 21:05:08,756 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-27 21:05:08,760 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 5
+2019-11-27 21:05:08,763 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-27 21:05:08,769 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1574859908768 with initial instances count: 0
+2019-11-27 21:05:08,781 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application CONFIG with eureka with status UP
+2019-11-27 21:05:08,783 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1574859908783, current=UP, previous=STARTING]
+2019-11-27 21:05:08,818 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:168 - declaring queue for inbound: springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA, bound to: springCloudBus
+2019-11-27 21:05:08,836 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_CONFIG/AUTOBVT-SMVSLG2:config:9762: registering service...
+2019-11-27 21:05:08,870 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors
+2019-11-27 21:05:09,010 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors' has 1 subscriber(s).
+2019-11-27 21:05:09,012 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors' has 2 subscriber(s).
+2019-11-27 21:05:09,343 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_CONFIG/AUTOBVT-SMVSLG2:config:9762 - registration status: 204
+2019-11-27 21:05:10,194 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA
+2019-11-27 21:05:10,370 [main] INFO  [org.xnio] Xnio.java:104 - XNIO version 3.3.8.Final
+2019-11-27 21:05:10,387 [main] INFO  [org.xnio.nio] NioXnio.java:55 - XNIO NIO Implementation Version 3.3.8.Final
+2019-11-27 21:05:10,530 [main] INFO  [o.s.b.w.embedded.undertow.UndertowServletWebServer] UndertowServletWebServer.java:144 - Undertow started on port(s) 9762 (http) with context path ''
+2019-11-27 21:05:10,531 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9762
+2019-11-27 21:05:11,020 [main] INFO  [com.zhupeng.ConfigApplication] StartupInfoLogger.java:59 - Started ConfigApplication in 21.743 seconds (JVM running for 23.183)
+2019-11-27 21:05:11,023 [main] INFO  [com.zhupeng.ConfigApplication] ConfigApplication.java:18 - 配置中心启动完成！
+2019-11-27 21:05:18,762 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-27 21:05:18,763 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-27 21:05:18,764 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-27 21:05:18,765 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-27 21:05:18,769 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-27 21:05:18,769 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: false
+2019-11-27 21:05:18,770 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-27 21:05:18,796 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-27 21:05:28,798 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-27 21:05:28,799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-27 21:05:28,799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-27 21:05:28,800 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-27 21:05:28,801 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-27 21:05:28,801 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: false
+2019-11-27 21:05:28,801 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-27 21:05:28,821 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-27 21:05:38,827 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-11-27 21:05:38,828 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-11-27 21:05:38,829 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-11-27 21:05:38,830 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-11-27 21:05:38,830 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-11-27 21:05:38,831 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: false
+2019-11-27 21:05:38,832 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-11-27 21:05:38,919 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-11-27 21:05:54,790 [XNIO-1 task-1] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-27 21:05:54,792 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2019-11-27 21:05:54,839 [XNIO-1 task-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 46 ms
+2019-11-27 21:05:56,463 [XNIO-1 task-1] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:06:01,326 [XNIO-1 task-1] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:481 - Fetched for remote master and found 1 updates
+2019-11-27 21:06:01,658 [XNIO-1 task-1] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:06:01,736 [XNIO-1 task-1] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[c464ff9b4b40925ffacd4b416a2368f50591f93f]
+2019-11-27 21:06:02,034 [XNIO-1 task-1] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/zipkin-dev.yml
+2019-11-27 21:06:02,036 [XNIO-1 task-1] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:09:15,189 [XNIO-1 task-2] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:09:16,728 [XNIO-1 task-2] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:09:16,766 [XNIO-1 task-2] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[c464ff9b4b40925ffacd4b416a2368f50591f93f]
+2019-11-27 21:09:17,120 [XNIO-1 task-2] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:09:17,121 [XNIO-1 task-2] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:09:20,358 [XNIO-1 task-3] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:09:21,916 [XNIO-1 task-3] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:09:21,951 [XNIO-1 task-3] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[c464ff9b4b40925ffacd4b416a2368f50591f93f]
+2019-11-27 21:09:22,263 [XNIO-1 task-3] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/zipkin-dev.yml
+2019-11-27 21:09:22,264 [XNIO-1 task-3] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:10:08,412 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:15:08,419 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:20:08,426 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:25:08,434 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:27:43,630 [XNIO-1 task-4] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:27:45,277 [XNIO-1 task-4] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:27:45,336 [XNIO-1 task-4] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[c464ff9b4b40925ffacd4b416a2368f50591f93f]
+2019-11-27 21:27:45,640 [XNIO-1 task-4] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/zipkin-dev.yml
+2019-11-27 21:27:45,642 [XNIO-1 task-4] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:28:46,978 [XNIO-1 task-5] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:28:50,633 [XNIO-1 task-5] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:481 - Fetched for remote master and found 1 updates
+2019-11-27 21:28:50,764 [XNIO-1 task-5] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:28:50,800 [XNIO-1 task-5] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:28:51,053 [XNIO-1 task-5] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:29:33,220 [XNIO-1 task-6] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:29:34,743 [XNIO-1 task-6] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:29:34,773 [XNIO-1 task-6] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:29:35,080 [XNIO-1 task-6] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:29:48,229 [XNIO-1 task-7] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:29:50,346 [XNIO-1 task-7] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:29:50,377 [XNIO-1 task-7] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:29:50,606 [XNIO-1 task-7] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:30:08,441 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:30:29,883 [XNIO-1 task-8] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:30:31,405 [XNIO-1 task-8] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:30:31,434 [XNIO-1 task-8] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:30:31,676 [XNIO-1 task-8] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:30:31,677 [XNIO-1 task-8] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:31:13,929 [XNIO-1 task-9] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:31:15,260 [XNIO-1 task-9] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:31:15,291 [XNIO-1 task-9] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:31:15,580 [XNIO-1 task-9] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:31:15,581 [XNIO-1 task-9] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:32:38,093 [XNIO-1 task-10] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:32:39,503 [XNIO-1 task-10] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:32:39,531 [XNIO-1 task-10] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:32:39,788 [XNIO-1 task-10] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:32:39,788 [XNIO-1 task-10] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:33:02,740 [XNIO-1 task-11] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:33:04,360 [XNIO-1 task-11] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:33:04,396 [XNIO-1 task-11] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[998b9ee0e622c2bffb61ec7b49fde37f976a600f]
+2019-11-27 21:33:04,661 [XNIO-1 task-11] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:33:04,662 [XNIO-1 task-11] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:35:08,448 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:40:08,456 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:40:29,217 [XNIO-1 task-12] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:40:33,598 [XNIO-1 task-12] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:481 - Fetched for remote master and found 1 updates
+2019-11-27 21:40:33,715 [XNIO-1 task-12] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:40:33,743 [XNIO-1 task-12] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:40:34,003 [XNIO-1 task-12] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:40:47,595 [XNIO-1 task-13] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:40:49,114 [XNIO-1 task-13] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:40:49,142 [XNIO-1 task-13] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:40:49,414 [XNIO-1 task-13] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:41:30,601 [XNIO-1 task-14] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:41:32,166 [XNIO-1 task-14] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:41:32,211 [XNIO-1 task-14] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:41:33,219 [XNIO-1 task-14] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:41:33,220 [XNIO-1 task-14] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:41:33,448 [XNIO-1 task-15] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:41:34,854 [XNIO-1 task-15] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:41:34,881 [XNIO-1 task-15] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:41:38,896 [XNIO-1 task-15] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:41:38,896 [XNIO-1 task-15] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:41:50,734 [AMQP Connection 127.0.0.1:5672] ERROR [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:119 - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-27 21:42:02,436 [XNIO-1 task-16] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:42:05,629 [XNIO-1 task-16] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:42:05,661 [XNIO-1 task-16] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:42:06,023 [XNIO-1 task-16] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:42:06,024 [XNIO-1 task-16] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:42:06,164 [XNIO-1 task-1] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:42:08,577 [XNIO-1 task-1] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:42:08,623 [XNIO-1 task-1] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[76055f52d2cc2019e526b126b6455f1fca04cd4a]
+2019-11-27 21:42:09,138 [XNIO-1 task-1] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:42:09,139 [XNIO-1 task-1] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:45:08,469 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:50:08,477 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:53:07,869 [XNIO-1 task-2] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:53:12,486 [XNIO-1 task-2] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:481 - Fetched for remote master and found 1 updates
+2019-11-27 21:53:12,678 [XNIO-1 task-2] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:53:12,737 [XNIO-1 task-2] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:53:13,054 [XNIO-1 task-2] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:53:27,145 [XNIO-1 task-3] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:53:29,134 [XNIO-1 task-3] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:53:29,177 [XNIO-1 task-3] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:53:29,549 [XNIO-1 task-3] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:54:04,941 [XNIO-1 task-4] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:54:06,833 [XNIO-1 task-4] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:54:06,963 [XNIO-1 task-4] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:688 - Could not reset to remote for master (current ref=refs/remotes/origin/master), remote: https://github.com/zhupgithub/springcloud
+2019-11-27 21:54:10,135 [XNIO-1 task-4] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:54:10,135 [XNIO-1 task-4] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:54:25,591 [XNIO-1 task-5] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:54:27,164 [XNIO-1 task-5] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:54:27,293 [XNIO-1 task-5] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:54:28,009 [XNIO-1 task-5] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 21:54:28,026 [XNIO-1 task-5] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:54:28,849 [XNIO-1 task-6] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:54:30,503 [XNIO-1 task-6] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:54:30,564 [XNIO-1 task-6] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:54:30,964 [XNIO-1 task-6] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:54:30,965 [XNIO-1 task-6] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:54:45,063 [XNIO-1 task-7] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:54:46,695 [XNIO-1 task-7] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:54:46,797 [XNIO-1 task-7] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:54:47,469 [XNIO-1 task-7] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 21:54:47,471 [XNIO-1 task-7] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:55:08,486 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 21:57:21,103 [XNIO-1 task-8] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:57:23,013 [XNIO-1 task-8] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:57:32,685 [XNIO-1 task-8] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:57:33,968 [XNIO-1 task-8] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2019-11-27 21:57:34,836 [XNIO-1 task-8] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 21:57:48,945 [XNIO-1 task-9] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 21:57:50,561 [XNIO-1 task-9] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 21:57:50,614 [XNIO-1 task-9] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 21:57:51,184 [XNIO-1 task-9] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 22:00:08,529 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 22:02:18,246 [XNIO-1 task-10] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 22:02:20,796 [XNIO-1 task-10] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 22:02:21,608 [XNIO-1 task-10] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 22:02:23,245 [XNIO-1 task-10] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 22:02:23,266 [XNIO-1 task-10] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 22:02:23,944 [XNIO-1 task-11] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 22:02:29,037 [XNIO-1 task-11] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 22:02:29,417 [XNIO-1 task-11] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 22:02:34,215 [XNIO-1 task-11] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 22:02:34,217 [XNIO-1 task-11] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 22:02:43,458 [XNIO-1 task-12] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 22:02:46,726 [XNIO-1 task-12] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 22:02:48,110 [XNIO-1 task-12] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 22:02:54,380 [XNIO-1 task-12] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-pc-dev.yml
+2019-11-27 22:02:54,381 [XNIO-1 task-12] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 22:03:12,191 [XNIO-1 task-13] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:451 - Dirty files found: [temp]
+2019-11-27 22:03:17,057 [XNIO-1 task-13] WARN  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:319 - The local repository is dirty or ahead of origin. Resetting it to origin/master.
+2019-11-27 22:03:17,353 [XNIO-1 task-13] INFO  [o.s.c.c.s.e.MultipleJGitEnvironmentRepository] JGitEnvironmentRepository.java:520 - Reset label master to version AnyObjectId[e0bd8f4379ced66ff25ea04fda4d94410b4935a4]
+2019-11-27 22:03:19,192 [XNIO-1 task-13] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/main-mobile-dev.yml
+2019-11-27 22:03:19,194 [XNIO-1 task-13] INFO  [o.s.c.c.s.environment.NativeEnvironmentRepository] NativeEnvironmentRepository.java:266 - Adding property source: file:/D:/workspace/myfile/GIT/springcloud/temp/git-config/application-dev.yml
+2019-11-27 22:04:56,223 [Thread-6] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application CONFIG with eureka with status DOWN
+2019-11-27 22:04:56,338 [Thread-6] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1321 - Saw local status change event StatusChangeEvent [timestamp=1574863496326, current=DOWN, previous=UP]
+2019-11-27 22:04:56,442 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_CONFIG/AUTOBVT-SMVSLG2:config:9762: registering service...
+2019-11-27 22:04:56,690 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_CONFIG/AUTOBVT-SMVSLG2:config:9762 - registration status: 204
+2019-11-27 22:05:02,309 [AMQP Connection 0:0:0:0:0:0:0:1:5672] WARN  [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:115 - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-11-27 22:05:02,385 [AMQP Connection 127.0.0.1:5672] WARN  [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:115 - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-11-27 22:05:02,847 [AMQP Connection 127.0.0.1:5672] ERROR [o.s.a.rabbit.connection.CachingConnectionFactory] CachingConnectionFactory.java:1517 - Channel shutdown: connection error
+2019-11-27 22:05:02,736 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:591 - Waiting for workers to finish.
+2019-11-27 22:05:03,286 [Thread-6] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:594 - Successfully waited for workers to finish.
+2019-11-27 22:05:03,286 [Thread-6] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA
+2019-11-27 22:05:03,568 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors' has 1 subscriber(s).
+2019-11-27 22:05:03,604 [Thread-6] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors' has 0 subscriber(s).
+2019-11-27 22:05:05,136 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-27 22:05:05,211 [Thread-6] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'config-1.errorChannel' has 0 subscriber(s).
+2019-11-27 22:05:05,212 [Thread-6] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-11-27 22:05:06,273 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-27 22:05:07,291 [Thread-6] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-11-27 22:05:08,448 [Thread-6] WARN  [o.s.beans.factory.support.DisposableBeanAdapter] DisposableBeanAdapter.java:349 - Destroy method 'close' on bean with name 'zipkinSender' threw an exception: com.rabbitmq.client.AlreadyClosedException: connection is already closed due to connection error; cause: java.net.SocketException: Connection reset
+2019-11-27 22:05:08,538 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-11-27 22:05:08,941 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusOutput
+2019-11-27 22:05:08,942 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: errorChannel
+2019-11-27 22:05:08,942 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBus.anonymous.4yn6IRNRQCuPAFXItKeiuA.errors
+2019-11-27 22:05:08,942 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: nullChannel
+2019-11-27 22:05:08,943 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusInput
+2019-11-27 22:05:08,943 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2019-11-27 22:05:08,943 [Thread-6] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@58ca1cad
+2019-11-27 22:05:08,982 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-11-27 22:05:12,110 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Unregistering ...
+2019-11-27 22:05:12,507 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:942 - DiscoveryClient_CONFIG/AUTOBVT-SMVSLG2:config:9762 - deregister  status: 200
+2019-11-27 22:05:12,666 [Thread-6] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-11-27 22:05:13,306 [Thread-6] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Destroying Spring FrameworkServlet 'dispatcherServlet'

@@ -18,6 +18,15 @@ spring:
           enabled: true   #动态刷新配置
         trace:
           enabled: true
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9766
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
 
   rabbitmq:
     host: localhost
@@ -51,6 +60,7 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+
 
 
 #ribbon:

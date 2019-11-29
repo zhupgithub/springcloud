@@ -10643,3 +10643,59 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2019-11-27 17:14:28,531 [hystrix-main-pc-4] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: main-pc
 2019-11-27 18:56:40,314 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
 2019-11-27 18:59:45,253 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
+2019-11-27 21:33:38,153 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
+2019-11-27 21:43:50,147 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
+2019-11-27 21:55:24,340 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException
+2019-11-27 22:03:24,639 [AMQP Connection 127.0.0.1:5672] ERROR [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:119 - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-27 22:03:29,646 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:119 - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-27 22:03:35,280 [AMQP Connection 127.0.0.1:5672] ERROR [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:119 - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-27 22:03:40,283 [AMQP Connection 0:0:0:0:0:0:0:1:5672] ERROR [com.rabbitmq.client.impl.ForgivingExceptionHandler] ForgivingExceptionHandler.java:119 - An unexpected connection driver error occured
+java.net.SocketException: Socket Closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91)
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:164)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:596)
+	at java.lang.Thread.run(Thread.java:745)
+2019-11-27 22:04:17,858 [HystrixTimer-1] ERROR [c.z.m.user.service.fallback.UserServiceFallback] UserServiceFallback.java:21 - 添加失败com.netflix.hystrix.exception.HystrixTimeoutException

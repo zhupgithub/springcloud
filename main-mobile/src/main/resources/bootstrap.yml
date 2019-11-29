@@ -19,6 +19,17 @@ spring:
         #跟踪总线事件
         trace:
           enabled: true
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9766    #http://zipkin   自定义zipkin,不应该使用端口号，应该使用服务名称
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+
+
 
   rabbitmq:
     host: localhost

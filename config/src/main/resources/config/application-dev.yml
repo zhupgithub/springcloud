@@ -12,7 +12,7 @@ spring:
   # zipkin
   zipkin:
     enabled: true
-    base-url: http://zipkin
+    base-url: http://zipkin     # zipkin服务的地址
   sleuth:
     web:
       client:
