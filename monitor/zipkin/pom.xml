@@ -12,32 +12,6 @@
     <artifactId>zipkin</artifactId>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <!--排除tomcat依赖-->
-                <exclusion>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                    <groupId>org.springframework.boot</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-undertow</artifactId>
-        </dependency>
-        <!--配置中心客户端-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <!--jdbc相关-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
         <!--zipkin-->
         <dependency>
             <groupId>io.zipkin.java</groupId>
@@ -56,28 +30,42 @@
             <artifactId>zipkin-autoconfigure-ui</artifactId>
             <version>${zipkin.version}</version>
         </dependency>
+
+        <!--jdbc相关-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
         <!-- 使用mysql存储-->
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-autoconfigure-storage-mysql</artifactId>
             <version>${zipkin.version}</version>
         </dependency>
-        <!-- zipkin的存储的SQL语句在这个jar包下 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!--&lt;!&ndash; zipkin的存储的SQL语句在这个jar包下 &ndash;&gt;
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-storage-mysql</artifactId>
             <version>${zipkin-storage-mysql.version}</version>
         </dependency>
-        <!-- zipkin2.x 需要此包连接操作mysql -->
+        &lt;!&ndash; zipkin2.x 需要此包连接操作mysql &ndash;&gt;
         <dependency>
             <groupId>org.jooq</groupId>
             <artifactId>jooq</artifactId>
             <version>${jooq.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
+        </dependency>-->
+
+
+        <!-- 使用消息的方式收集数据（使用rabbitmq） -->
+<!--        <dependency>-->
+<!--            <groupId>io.zipkin.java</groupId>-->
+<!--            <artifactId>zipkin-autoconfigure-collector-rabbitmq</artifactId>-->
+<!--            <version>2.12.1</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 

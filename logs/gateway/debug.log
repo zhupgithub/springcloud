@@ -1,0 +1,131 @@
+2019-12-01 18:09:29,535 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-12-01 18:09:29,908 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-12-01 18:09:29,911 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource gateway-properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,912 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,913 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,913 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,914 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-12-01 18:09:29,914 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,915 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,915 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-12-01 18:09:29,976 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87f5a034] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-01 18:09:30,010 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-12-01 18:09:46,148 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: gateway-1-1
+2019-12-01 18:09:46,478 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:482 - Attempting to connect to: [localhost:5672]
+2019-12-01 18:09:46,701 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:517 - Created new connection: rabbitConnectionFactory#61b0af9f:0/SimpleConnection@49741e80 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56225]
+2019-12-01 18:09:46,796 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.springCloudBusOutput' has 1 subscriber(s).
+2019-12-01 18:09:46,819 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-12-01 18:09:47,164 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-12-01 18:09:47,553 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-12-01 18:09:47,554 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-12-01 18:09:49,270 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-12-01 18:09:49,271 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-12-01 18:09:49,884 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:09:50,067 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-12-01 18:09:50,067 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-12-01 18:09:50,068 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-12-01 18:09:50,068 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-12-01 18:09:50,069 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-12-01 18:09:50,071 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-12-01 18:09:50,071 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-12-01 18:09:51,059 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-12-01 18:09:51,065 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 5
+2019-12-01 18:09:51,069 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-01 18:09:51,076 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1575194991075 with initial instances count: 3
+2019-12-01 18:09:51,081 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application GATEWAY with eureka with status UP
+2019-12-01 18:09:51,081 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1575194991081, current=UP, previous=STARTING]
+2019-12-01 18:09:51,133 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:168 - declaring queue for inbound: springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q, bound to: springCloudBus
+2019-12-01 18:09:51,090 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_GATEWAY/AUTOBVT-SMVSLG2:gateway:9767: registering service...
+2019-12-01 18:09:51,461 [main] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:767 - Registering MessageChannel springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors
+2019-12-01 18:09:51,587 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors' has 1 subscriber(s).
+2019-12-01 18:09:51,588 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors' has 2 subscriber(s).
+2019-12-01 18:09:51,788 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q
+2019-12-01 18:09:52,234 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_GATEWAY/AUTOBVT-SMVSLG2:gateway:9767 - registration status: 204
+2019-12-01 18:09:52,790 [main] INFO  [o.s.boot.web.embedded.netty.NettyWebServer] NettyWebServer.java:76 - Netty started on port(s): 9767
+2019-12-01 18:09:52,793 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 9767
+2019-12-01 18:09:52,995 [main] INFO  [com.zhupeng.GatewayApplication] StartupInfoLogger.java:59 - Started GatewayApplication in 29.642 seconds (JVM running for 32.866)
+2019-12-01 18:09:52,998 [main] INFO  [com.zhupeng.GatewayApplication] GatewayApplication.java:16 - 网关服务启动完成！
+2019-12-01 18:14:50,080 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:19:50,096 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:24:50,101 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:29:50,105 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:34:50,111 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-12-01 18:37:31,059 [Thread-7] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application GATEWAY with eureka with status DOWN
+2019-12-01 18:37:31,060 [Thread-7] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1321 - Saw local status change event StatusChangeEvent [timestamp=1575196651060, current=DOWN, previous=UP]
+2019-12-01 18:37:31,062 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_GATEWAY/AUTOBVT-SMVSLG2:gateway:9767: registering service...
+2019-12-01 18:37:31,071 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_GATEWAY/AUTOBVT-SMVSLG2:gateway:9767 - registration status: 204
+2019-12-01 18:37:31,627 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:591 - Waiting for workers to finish.
+2019-12-01 18:37:31,635 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:594 - Successfully waited for workers to finish.
+2019-12-01 18:37:31,638 [Thread-7] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q
+2019-12-01 18:37:31,647 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors' has 1 subscriber(s).
+2019-12-01 18:37:31,648 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors' has 0 subscriber(s).
+2019-12-01 18:37:31,657 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-12-01 18:37:31,658 [Thread-7] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'gateway-1.errorChannel' has 0 subscriber(s).
+2019-12-01 18:37:31,658 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-12-01 18:37:31,668 [Thread-7] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-12-01 18:37:32,528 [DiscoveryClient-CacheRefreshExecutor-0] ERROR [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1519 - Cannot fetch registry from server
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'tracing': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:413)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:339)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1123)
+	at org.springframework.cloud.sleuth.instrument.reactor.ReactorSleuth.lambda$scopePassingSpanOperator$1(ReactorSleuth.java:87)
+	at reactor.core.publisher.FluxLift.subscribe(FluxLift.java:42)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7923)
+	at reactor.core.publisher.Flux.subscribeWith(Flux.java:8087)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7916)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7880)
+	at reactor.core.publisher.Flux.subscribe(Flux.java:7798)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$0(WeightCalculatorWebFilter.java:133)
+	at org.springframework.beans.factory.ObjectProvider.ifAvailable(ObjectProvider.java:93)
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:133)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:68)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.resetIfNeeded(RouteRefreshListener.java:63)
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:57)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.onCacheRefreshed(CloudEurekaClient.java:123)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:999)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-01 18:37:36,067 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBus.anonymous.CHFbEK3wR4C62isojwH81Q.errors
+2019-12-01 18:37:36,069 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusOutput
+2019-12-01 18:37:36,070 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: springCloudBusInput
+2019-12-01 18:37:36,070 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: nullChannel
+2019-12-01 18:37:36,071 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:495 - Summary on shutdown: errorChannel
+2019-12-01 18:37:36,071 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2019-12-01 18:37:36,072 [Thread-7] INFO  [o.s.integration.monitor.IntegrationMBeanExporter] IntegrationMBeanExporter.java:498 - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@362fd4e9
+2019-12-01 18:37:36,075 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-12-01 18:37:38,466 [DiscoveryClient-0] WARN  [com.netflix.discovery.TimedSupervisorTask] TimedSupervisorTask.java:71 - task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019-12-01 18:37:39,087 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Unregistering ...
+2019-12-01 18:37:39,415 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:942 - DiscoveryClient_GATEWAY/AUTOBVT-SMVSLG2:gateway:9767 - deregister  status: 200
+2019-12-01 18:37:39,455 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient

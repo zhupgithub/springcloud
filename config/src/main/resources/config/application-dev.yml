@@ -8,16 +8,24 @@ management:
     health:
       show-details: ALWAYS
 
-spring:
-  # zipkin
-  zipkin:
-    enabled: true
-    base-url: http://zipkin     # zipkin服务的地址
-  sleuth:
-    web:
-      client:
-        enabled: true
-    sampler:
-      # 默认的采样比率为0.1，不能看到所有请求数据
-      # 更改采样比率为1，就能看到所有的请求数据了，但是这样会增加接口调用延迟
-      probability: 1.0
+#spring:
+#  # zipkin
+#  zipkin:
+#    enabled: true
+#    base-url: http://zipkin     # zipkin服务的地址
+#  sleuth:
+#    web:
+#      client:
+#        enabled: true
+#    sampler:
+#      # 默认的采样比率为0.1，不能看到所有请求数据
+#      # 更改采样比率为1，就能看到所有的请求数据了，但是这样会增加接口调用延迟
+#      probability: 1.0
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        cloud:
+          gateway: debug
+

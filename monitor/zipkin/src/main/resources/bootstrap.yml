@@ -21,15 +21,9 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#使用Rabbit来收集数据，使用es来存储数据
+#java -jar zipkin-server-2.10.1-exec.jar --zipkin.collector.rabbitmq.addresses=localhost --zipkin.collector.rabbitmq.username=lbl --zipkin.collector.rabbitmq.password=123456 --STORAGE_TYPE=elasticsearch --ES_HOSTS=http://127.0.0.1:9200
 
-#roses:
-#  message:
-#    checkInterval: 30 #消息检查间隔，单位秒
 
 # 注册中心配置
 eureka:

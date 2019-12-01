@@ -1,21 +1,15 @@
-# spring:
-#   # 数据源
-#   datasource:
-#     type: com.zaxxer.hikari.HikariDataSource
-#     driver-class-name: com.mysql.cj.jdbc.Driver
-#     username: root
-#     password: root
+ spring:
+   # 数据源
+   datasource:
+     type: com.zaxxer.hikari.HikariDataSource
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     username: root
+     password: root
+     url: jdbc:mysql://127.0.0.1:3306/pig?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8&charset=utf8mb4&useSSL=false
 #     url: jdbc:mysql://localhost:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
 
-# management:
-#   metrics:
-#     web:
-#       server:
-#         auto-time-requests: false
-
-
-# zipkin:
-#   storage:
-#     type: mysql
-# sleuth:
-#   enabled: true
+ zipkin:
+   storage:   # 定义zipkin收集到数据存储方式
+     type: mysql
+ sleuth:
+   enabled: true

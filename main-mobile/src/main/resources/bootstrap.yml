@@ -21,7 +21,9 @@ spring:
           enabled: true
   zipkin:
     enabled: true
-    base-url: http://localhost:9766    #http://zipkin   自定义zipkin,不应该使用端口号，应该使用服务名称
+    base-url: http://localhost:9411    #http://zipkin   自定义zipkin,不应该使用端口号，应该使用服务名称
+    sender:
+      type: rabbit    #spring.zipkin.sender.type 链路数据的传输,默认是http方式（即该值等于web）,可以支持Rabbit进行传输消息
   sleuth:
     web:
       client:
