@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true   #原服务的访问地址也可以使用，当等于false时，原访问地址将不能使用了
+          lower-case-service-id: true    #服务serviceId不分区大小写
