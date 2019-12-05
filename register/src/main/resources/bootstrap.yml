@@ -44,7 +44,7 @@ spring:
 
   #rabbitmq相关配置
   rabbitmq:
-    host: localhost
+    host: 10.12.14.155
     port: 5672
     username: guest
     password: guest

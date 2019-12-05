@@ -1,1 +1,45 @@
 2019-12-01 18:38:05,147 [AMQP Connection 127.0.0.1:5672] ERROR [o.s.a.rabbit.connection.CachingConnectionFactory] CachingConnectionFactory.java:1517 - Channel shutdown: connection error
+2019-12-05 20:47:29,696 [AMQP Connection 127.0.0.1:5672] ERROR [o.s.a.rabbit.connection.CachingConnectionFactory] CachingConnectionFactory.java:1517 - Channel shutdown: connection error
+2019-12-05 21:44:54,872 [TaskBatchingWorker-target_localhost-12] ERROR [c.netflix.eureka.cluster.ReplicationTaskProcessor] ReplicationTaskProcessor.java:126 - Network level connection to peer localhost; retrying after delay
+javax.ws.rs.WebApplicationException: com.fasterxml.jackson.databind.JsonMappingException: processing aborted
+ at [Source: (com.sun.jersey.client.apache4.ApacheHttpClient4Handler$HttpClientResponseInputStream); line: 1, column: 53] (through reference chain: com.netflix.eureka.cluster.protocol.ReplicationListResponse["responseList"]->java.util.ArrayList[0]->com.netflix.eureka.cluster.protocol.ReplicationInstanceResponse["responseEntity"])
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.readFrom(DiscoveryJerseyProvider.java:110)
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:634)
+	at com.sun.jersey.api.client.ClientResponse.getEntity(ClientResponse.java:586)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:121)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:193)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: processing aborted
+ at [Source: (com.sun.jersey.client.apache4.ApacheHttpClient4Handler$HttpClientResponseInputStream); line: 1, column: 53] (through reference chain: com.netflix.eureka.cluster.protocol.ReplicationListResponse["responseList"]->java.util.ArrayList[0]->com.netflix.eureka.cluster.protocol.ReplicationInstanceResponse["responseEntity"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:353)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.wrapAndThrow(BeanDeserializerBase.java:1711)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:530)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:417)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1287)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:530)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:528)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:417)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1287)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1611)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1188)
+	at com.netflix.discovery.converters.EurekaJacksonCodec.readValue(EurekaJacksonCodec.java:213)
+	at org.springframework.cloud.netflix.eureka.server.CloudJacksonJson.decode(CloudJacksonJson.java:84)
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.readFrom(DiscoveryJerseyProvider.java:103)
+	... 6 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: processing aborted
+ at [Source: (com.sun.jersey.client.apache4.ApacheHttpClient4Handler$HttpClientResponseInputStream); line: 1, column: 54]
+	at com.netflix.discovery.converters.EurekaJacksonCodec$InstanceInfoDeserializer.deserialize(EurekaJacksonCodec.java:500)
+	at org.springframework.cloud.netflix.eureka.server.CloudJacksonJson$CloudInstanceInfoDeserializer.deserialize(CloudJacksonJson.java:183)
+	at org.springframework.cloud.netflix.eureka.server.CloudJacksonJson$CloudInstanceInfoDeserializer.deserialize(CloudJacksonJson.java:174)
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:530)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:528)
+	... 24 common frames omitted

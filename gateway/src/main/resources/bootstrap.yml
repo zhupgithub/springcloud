@@ -27,8 +27,9 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true   #原服务的访问地址也可以使用，当等于false时，原访问地址将不能使用了
-          lower-case-service-id: true    #服务serviceId不分区大小写
+          enabled: true   #表明gateway开启服务注册和发现的功能，并且spring cloud gateway自动根据服务发现为每一个服务创建了一个router，
+                          #这个router将以服务名开头的请求路径转发到对应的服务
+          lower-case-service-id: true    #将请求路径上的服务名配置为小写
 
   zipkin:
     enabled: true
@@ -45,7 +46,7 @@ spring:
 
 
   rabbitmq:
-    host: localhost
+    host: 10.12.14.155
     port: 5672
     username: guest
     password: guest

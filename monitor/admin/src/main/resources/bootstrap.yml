@@ -12,7 +12,7 @@ spring:
       profile: dev  #git 文件的环境
 
   rabbitmq:
-    host: localhost
+    host: 10.12.14.155
     port: 5672
     username: guest
     password: guest
