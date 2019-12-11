@@ -3,7 +3,7 @@ package com.zhupeng.constant;
 public enum ResultEnum {
 
     DEFAULT_SUCCESS(1000 , "调用成功"),
-    DEFAULT_FAIL(9999 , "调用成功")
+    DEFAULT_FAIL(9999 , "调用失败")
     ;
 
     private ResultEnum(int resultCode, String resultMessage) {

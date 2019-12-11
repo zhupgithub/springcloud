@@ -17,12 +17,12 @@ public class GlobalSysFilter implements GlobalFilter , Ordered {
         } else {
             System.out.println("ysy不存在");
         }
-        return chain.filter(exchange).then(
-                Mono.fromRunnable(() -> {
-                    System.out.println("成功了");
-                })
-        );
-
+//        return chain.filter(exchange).then(
+//                Mono.fromRunnable(() -> {
+//                    System.out.println("成功了");
+//                })
+//        );
+        return chain.filter(exchange);
     }
 
     @Override
