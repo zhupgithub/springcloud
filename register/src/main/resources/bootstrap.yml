@@ -56,7 +56,7 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
   client:
-    register-with-eureka: false #自己是否注册到注册中心
+    register-with-eureka: true #自己是否注册到注册中心
     fetch-registry: false # 需要从其他eureka节点获取注册信息
     service-url:
       defaultZone: http://admin:zhupeng@${eureka.instance.hostname}:${server.port}/eureka/ # 将服务注册到注册中心

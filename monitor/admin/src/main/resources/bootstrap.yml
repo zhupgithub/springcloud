@@ -3,6 +3,35 @@ server:
 spring:
   application:
     name: admin
+
+  #当admin监控的服务发生了宕机，发邮件通知
+  boot:
+    admin:
+      notify:
+        mail:
+          # 逗号分隔的邮件收件人列表
+          to: zhu1@zhup2020.com , zhu3@zhup2020.com
+          # 开启邮箱通知 ,默认为true
+          enabled: true
+          # 不需要发送通知的状态：从状态A:到状态B
+          ignore-changes: {"UNKNOWN:UP"}
+          # 逗号分隔的抄送收件人列表
+          cc: xxxx@126.com
+          # 发件人
+          from: zhupeng@zhup2020.com
+    # 邮件发送服务器地址（smtp.126.com），当该发送服务器需要验证时，需要填写用户名和密码，当不需要验证，不需要填写
+    #当在本地搭建的易邮右键服务器，发送服务器地址可以直接写localhost
+    mail:
+      host: localhost
+#      port: 25
+#      username: xxxx@126.com
+#      default-encoding: utf-8
+#      password: xxxx
+
+  security:
+    user:
+      name: admin
+      password: admin
   cloud:
     config:
       name: admin
@@ -30,10 +59,24 @@ eureka:
     prefer-ip-address: true
     lease-expiration-duration-in-seconds: 20   #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除(默认90秒)
     lease-renewal-interval-in-seconds: 5       #服务刷新时间配置，每隔这个时间会主动心跳一次(默认30秒)
+    #当不加入该信息，adminserver本身将在admin服务中显示注册不成功
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
   client:
     service-url:
       defaultZone: http://admin:zhupeng@localhost:9761/eureka/
     registry-fetch-interval-seconds: 10  #重新刷新服务地址的时间
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
 
 
 #ribbon:

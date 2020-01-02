@@ -313,3 +313,45 @@ java.io.IOException: 您的主机中的软件中止了一个已建立的连接�
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
+2019-12-30 15:29:07,686 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9761 or configure this application to listen on another port.
+
+2019-12-30 15:30:50,231 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9761 or configure this application to listen on another port.
+
+2019-12-30 15:36:39,205 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9761 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9761 or configure this application to listen on another port.
+
